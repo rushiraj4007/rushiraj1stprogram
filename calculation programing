@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main()
+{
+	float a,b,add,sub,mux,div;
+	printf("enter a=");
+	scanf("%f",&a);
+	printf("\nenter b=");
+	scanf("%f",&b);
+	add=a+b;
+	sub=a-b;
+	mux=a*b;
+	div=a/b;
+	printf("\nvalue of add=%f",add);
+	printf("\nvalue of sub=%f",sub);
+	printf("\nvalue of mux=%f",mux);
+	printf("\nvalue of div=%f",div);
+
+	return 0;
+}
